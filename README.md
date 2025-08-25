@@ -5,10 +5,10 @@ It serves as a learning resource and a starting point for experimenting with LLM
 
 ## Key Accomplishments
 1. Built a 15M-parameter Transformer with a novel optimizer targeting 45% of its core to improve model accuracy.
-2. 
-3. Achieved 4x larger training batches and tracked 10+ real-time metrics for data-driven model  optimization.
-4. 
-5. Slashed data preparation time by over 95% with a caching pipeline to enable rapid model iteration.
+
+2. Achieved 4x larger training batches and tracked 10+ real-time metrics for data-driven model  optimization.
+ 
+3. Slashed data preparation time by over 95% with a caching pipeline to enable rapid model iteration.
 
    
 ## Model Architecture and Metrics
