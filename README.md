@@ -15,3 +15,15 @@ The `MinimalLLM` is a decoder-only Transformer model with the following default 
 | `d_ff` | 1536 | The dimensionality of the feed-forward network. |
 | `max_seq_len` | 512 | The maximum sequence length the model can process. |
 | `vocab_size` | 50257 | Determined by the `HuggingFaceTB/SmolLM-135M` tokenizer. |
+
+
+| File | Description |
+| :--- | :--- |
+| `llm.py` | Contains the core `MinimalLLM` model definition and training loop. |
+| `data_server.py` | Handles loading, tokenizing, and caching of the dataset. |
+| `distributed_train.py` | The main script for starting a new distributed training job. |
+| `resume_training.py` | Script to resume an interrupted distributed training job. |
+| `interactive_inference.py`| Script to run the model in an interactive inference mode. |
+| `list_checkpoints.py` | Lists all saved model checkpoints. |
+| `gpu_monitor.py` | A utility to monitor GPU usage. |
+| `choosing_tokenizer/` | A sub-directory with scripts to analyze and compare different tokenizers. |
