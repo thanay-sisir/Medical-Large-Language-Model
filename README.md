@@ -34,3 +34,8 @@ The `MinimalLLM` is a decoder-only Transformer model with the following default 
 | `list_checkpoints.py` | Lists all saved model checkpoints. |
 | `gpu_monitor.py` | A utility to monitor GPU usage. |
 | `choosing_tokenizer/` | A sub-directory with scripts to analyze and compare different tokenizers. |
+
+
+## LLM Response
+<img width="712" height="398" alt="image" src="https://github.com/user-attachments/assets/3b02ccfe-01cf-4e91-8329-c5b78ca731b4" />
+
