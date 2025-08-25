@@ -3,6 +3,13 @@ This project provides a small-scale but fully functional Language Learning Model
 using PyTorch. The model is specifically designed and trained on medical text from the `TheBlueScrubs-v1-fixed` dataset. 
 It serves as a learning resource and a starting point for experimenting with LLM architectures, training techniques, and their application in specialized domains like medicine.
 
+## Key Accomplishments
+1. Built a 15M-parameter Transformer with a novel optimizer targeting 45% of its core to improve model accuracy.
+2. 
+3. Achieved 4x larger training batches and tracked 10+ real-time metrics for data-driven model  optimization.
+4. 
+5. Slashed data preparation time by over 95% with a caching pipeline to enable rapid model iteration.
+
    
 ## Model Architecture and Metrics
    
